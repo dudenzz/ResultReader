@@ -1,0 +1,1038 @@
+
+
+Question: 1.	enormously
+
+	Question word: enormously
+	Possibilities: ['appropriately', 'uniquely', 'tremendously', 'decidedly']
+	Correct Answer: tremendously	Calculation: 
+
+			sim(enormously,appropriately)=0.446754315873
+			sim(enormously,uniquely)=0.469523046958
+			sim(enormously,tremendously)=0.908358395659
+			sim(enormously,decidedly)=0.490748129195
+	Chosen answer: tremendously
+		CORRECT!
+
+Question: 2.	provisions
+
+	Question word: provisions
+	Possibilities: ['stipulations', 'interrelations', 'jurisdictions', 'interpretations']
+	Correct Answer: stipulations	Calculation: 
+
+			sim(provisions,stipulations)=0.534018093211
+			sim(provisions,interrelations)=0.0600485461468
+			sim(provisions,jurisdictions)=0.519699632987
+			sim(provisions,interpretations)=0.300677567336
+	Chosen answer: stipulations
+		CORRECT!
+
+Question: 3.	haphazardly
+
+	Question word: haphazardly
+	Possibilities: ['dangerously', 'densely', 'randomly', 'linearly']
+	Correct Answer: randomly	Calculation: 
+
+			sim(haphazardly,dangerously)=0.440119508768
+			sim(haphazardly,densely)=0.411377254697
+			sim(haphazardly,randomly)=0.527493548127
+			sim(haphazardly,linearly)=0.31964171488
+	Chosen answer: randomly
+		CORRECT!
+
+Question: 4.	prominent
+
+	Question word: prominent
+	Possibilities: ['battered', 'ancient', 'mysterious', 'conspicuous']
+	Correct Answer: conspicuous	Calculation: 
+
+			sim(prominent,battered)=0.178273935671
+			sim(prominent,ancient)=0.32504218371
+			sim(prominent,mysterious)=0.338533956914
+			sim(prominent,conspicuous)=0.527312584863
+	Chosen answer: conspicuous
+		CORRECT!
+
+Question: 5.	zenith
+
+	Question word: zenith
+	Possibilities: ['completion', 'pinnacle', 'outset', 'decline']
+	Correct Answer: pinnacle	Calculation: 
+
+			sim(zenith,completion)=0.135977943088
+			sim(zenith,pinnacle)=0.519008324224
+			sim(zenith,outset)=0.206344782222
+			sim(zenith,decline)=0.216775739186
+	Chosen answer: pinnacle
+		CORRECT!
+
+Question: 6.	flawed
+
+	Question word: flawed
+	Possibilities: ['tiny', 'imperfect', 'lustrous', 'crude']
+	Correct Answer: imperfect	Calculation: 
+
+			sim(flawed,tiny)=0.1947233981
+			sim(flawed,imperfect)=0.609038949055
+			sim(flawed,lustrous)=0.0461028463713
+			sim(flawed,crude)=0.291922179554
+	Chosen answer: imperfect
+		CORRECT!
+
+Question: 7.	urgently
+
+	Question word: urgently
+	Possibilities: ['typically', 'conceivably', 'tentatively', 'desperately']
+	Correct Answer: desperately	Calculation: 
+
+			sim(urgently,typically)=0.146446688002
+			sim(urgently,conceivably)=0.259477636152
+			sim(urgently,tentatively)=0.276865001454
+			sim(urgently,desperately)=0.54470675234
+	Chosen answer: desperately
+		CORRECT!
+
+Question: 8.	consumed
+
+	Question word: consumed
+	Possibilities: ['bred', 'caught', 'eaten', 'supplied']
+	Correct Answer: eaten	Calculation: 
+
+			sim(consumed,bred)=0.232942458346
+			sim(consumed,caught)=0.29661733356
+			sim(consumed,eaten)=0.664489740809
+			sim(consumed,supplied)=0.32168278042
+	Chosen answer: eaten
+		CORRECT!
+
+Question: 9.	advent
+
+	Question word: advent
+	Possibilities: ['coming', 'arrest', 'financing', 'stability']
+	Correct Answer: coming	Calculation: 
+
+			sim(advent,coming)=0.299182406036
+			sim(advent,arrest)=0.0650869357244
+			sim(advent,financing)=0.164288279492
+			sim(advent,stability)=0.145275917779
+	Chosen answer: coming
+		CORRECT!
+
+Question: 10.	concisely
+
+	Question word: concisely
+	Possibilities: ['powerfully', 'positively', 'freely', 'succinctly']
+	Correct Answer: succinctly	Calculation: 
+
+			sim(concisely,powerfully)=0.518324916209
+			sim(concisely,positively)=0.361673053753
+			sim(concisely,freely)=0.290130904683
+			sim(concisely,succinctly)=0.876527293619
+	Chosen answer: succinctly
+		CORRECT!
+
+Question: 11.	salutes
+
+	Question word: salutes
+	Possibilities: ['information', 'ceremonies', 'greetings', 'privileges']
+	Correct Answer: greetings	Calculation: 
+
+			sim(salutes,information)=-0.132703301099
+			sim(salutes,ceremonies)=0.357921308948
+			sim(salutes,greetings)=0.33309016653
+			sim(salutes,privileges)=0.0325825213109
+	Chosen answer: ceremonies
+		WRONG!
+
+Question: 12.	solitary
+
+	Question word: solitary
+	Possibilities: ['alert', 'restless', 'alone', 'fearless']
+	Correct Answer: alone	Calculation: 
+
+			sim(solitary,alert)=0.0932940494412
+			sim(solitary,restless)=0.366835301564
+			sim(solitary,alone)=0.40244673795
+			sim(solitary,fearless)=0.35305464663
+	Chosen answer: alone
+		CORRECT!
+
+Question: 13.	hasten
+
+	Question word: hasten
+	Possibilities: ['permit', 'determine', 'accelerate', 'accompany']
+	Correct Answer: accelerate	Calculation: 
+
+			sim(hasten,permit)=0.270760263524
+			sim(hasten,determine)=0.24749215522
+			sim(hasten,accelerate)=0.585978673692
+			sim(hasten,accompany)=0.360918749714
+	Chosen answer: accelerate
+		CORRECT!
+
+Question: 14.	perseverance
+
+	Question word: perseverance
+	Possibilities: ['endurance', 'skill', 'generosity', 'disturbance']
+	Correct Answer: endurance	Calculation: 
+
+			sim(perseverance,endurance)=0.559283050514
+			sim(perseverance,skill)=0.460478717509
+			sim(perseverance,generosity)=0.623975533569
+			sim(perseverance,disturbance)=0.0870636327767
+	Chosen answer: generosity
+		WRONG!
+
+Question: 15.	fanciful
+
+	Question word: fanciful
+	Possibilities: ['familiar', 'imaginative', 'apparent', 'logical']
+	Correct Answer: imaginative	Calculation: 
+
+			sim(fanciful,familiar)=0.332454720146
+			sim(fanciful,imaginative)=0.689442676988
+			sim(fanciful,apparent)=0.267351016342
+			sim(fanciful,logical)=0.289837097224
+	Chosen answer: imaginative
+		CORRECT!
+
+Question: 16.	showed
+
+	Question word: showed
+	Possibilities: ['demonstrated', 'published', 'repeated', 'postponed']
+	Correct Answer: demonstrated	Calculation: 
+
+			sim(showed,demonstrated)=0.71866673348
+			sim(showed,published)=0.252000786846
+			sim(showed,repeated)=0.439264129654
+			sim(showed,postponed)=0.197696960395
+	Chosen answer: demonstrated
+		CORRECT!
+
+Question: 17.	constantly
+
+	Question word: constantly
+	Possibilities: ['instantly', 'continually', 'rapidly', 'accidentally']
+	Correct Answer: continually	Calculation: 
+
+			sim(constantly,instantly)=0.518996526127
+			sim(constantly,continually)=0.895301686171
+			sim(constantly,rapidly)=0.578685158857
+			sim(constantly,accidentally)=0.443254935859
+	Chosen answer: continually
+		CORRECT!
+
+Question: 18.	issues
+
+	Question word: issues
+	Possibilities: ['training', 'salaries', 'subjects', 'benefits']
+	Correct Answer: subjects	Calculation: 
+
+			sim(issues,training)=0.321213771906
+			sim(issues,salaries)=0.191186519221
+			sim(issues,subjects)=0.398166688428
+			sim(issues,benefits)=0.408877716197
+	Chosen answer: benefits
+		WRONG!
+
+Question: 19.	furnish
+
+	Question word: furnish
+	Possibilities: ['supply', 'impress', 'protect', 'advise']
+	Correct Answer: supply	Calculation: 
+
+			sim(furnish,supply)=0.409027709554
+			sim(furnish,impress)=0.326872055692
+			sim(furnish,protect)=0.259020961787
+			sim(furnish,advise)=0.460539059451
+	Chosen answer: advise
+		WRONG!
+
+Question: 20.	costly
+
+	Question word: costly
+	Possibilities: ['expensive', 'beautiful', 'popular', 'complicated']
+	Correct Answer: expensive	Calculation: 
+
+			sim(costly,expensive)=0.788941285913
+			sim(costly,beautiful)=0.146422692089
+			sim(costly,popular)=0.2518209344
+			sim(costly,complicated)=0.592771910561
+	Chosen answer: expensive
+		CORRECT!
+
+Question: 21.	recognized
+
+	Question word: recognized
+	Possibilities: ['successful', 'depicted', 'acknowledged', 'welcomed']
+	Correct Answer: acknowledged	Calculation: 
+
+			sim(recognized,successful)=0.486877106481
+			sim(recognized,depicted)=0.267362589408
+			sim(recognized,acknowledged)=0.672767429962
+			sim(recognized,welcomed)=0.420027041171
+	Chosen answer: acknowledged
+		CORRECT!
+
+Question: 22.	spot
+
+	Question word: spot
+	Possibilities: ['climate', 'latitude', 'sea', 'location']
+	Correct Answer: location	Calculation: 
+
+			sim(spot,climate)=0.189056553422
+			sim(spot,latitude)=0.186648804838
+			sim(spot,sea)=0.354291382075
+			sim(spot,location)=0.498446730803
+	Chosen answer: location
+		CORRECT!
+
+Question: 23.	make
+
+	Question word: make
+	Possibilities: ['earn', 'print', 'trade', 'borrow']
+	Correct Answer: earn	Calculation: 
+
+			sim(make,earn)=0.453037884242
+			sim(make,print)=0.354812457469
+			sim(make,trade)=0.358738888439
+			sim(make,borrow)=0.421214510824
+	Chosen answer: earn
+		CORRECT!
+
+Question: 24.	often
+
+	Question word: often
+	Possibilities: ['definitely', 'frequently', 'chemically', 'hardly']
+	Correct Answer: frequently	Calculation: 
+
+			sim(often,definitely)=0.622690305809
+			sim(often,frequently)=0.892045059092
+			sim(often,chemically)=0.260670018893
+			sim(often,hardly)=0.639582661256
+	Chosen answer: frequently
+		CORRECT!
+
+Question: 25.	easygoing
+
+	Question word: easygoing
+	Possibilities: ['frontier', 'boring', 'farming', 'relaxed']
+	Correct Answer: relaxed	Calculation: 
+
+			sim(easygoing,frontier)=0.100130904782
+			sim(easygoing,boring)=0.227801693549
+			sim(easygoing,farming)=0.0794936048863
+			sim(easygoing,relaxed)=0.590485710849
+	Chosen answer: relaxed
+		CORRECT!
+
+Question: 26.	debate
+
+	Question word: debate
+	Possibilities: ['war', 'argument', 'election', 'competition']
+	Correct Answer: argument	Calculation: 
+
+			sim(debate,war)=0.428800642123
+			sim(debate,argument)=0.646935964743
+			sim(debate,election)=0.604390541789
+			sim(debate,competition)=0.394167264383
+	Chosen answer: argument
+		CORRECT!
+
+Question: 27.	narrow
+
+	Question word: narrow
+	Possibilities: ['clear', 'freezing', 'thin', 'poisonous']
+	Correct Answer: thin	Calculation: 
+
+			sim(narrow,clear)=0.477042983869
+			sim(narrow,freezing)=0.176599156304
+			sim(narrow,thin)=0.480732492123
+			sim(narrow,poisonous)=0.183357670895
+	Chosen answer: thin
+		CORRECT!
+
+Question: 28.	arranged
+
+	Question word: arranged
+	Possibilities: ['planned', 'explained', 'studied', 'discarded']
+	Correct Answer: planned	Calculation: 
+
+			sim(arranged,planned)=0.390078549413
+			sim(arranged,explained)=0.339121950849
+			sim(arranged,studied)=0.283989721085
+			sim(arranged,discarded)=0.221674529861
+	Chosen answer: planned
+		CORRECT!
+
+Question: 29.	infinite
+
+	Question word: infinite
+	Possibilities: ['limitless', 'relative', 'unusual', 'structural']
+	Correct Answer: limitless	Calculation: 
+
+			sim(infinite,limitless)=0.714624250503
+			sim(infinite,relative)=0.324128098594
+			sim(infinite,unusual)=0.248721524175
+			sim(infinite,structural)=0.23288716546
+	Chosen answer: limitless
+		CORRECT!
+
+Question: 30.	showy
+
+	Question word: showy
+	Possibilities: ['striking', 'prickly', 'entertaining', 'incidental']
+	Correct Answer: striking	Calculation: 
+
+			sim(showy,striking)=0.369705951691
+			sim(showy,prickly)=0.452707726694
+			sim(showy,entertaining)=0.26949016943
+			sim(showy,incidental)=0.184848490138
+	Chosen answer: prickly
+		WRONG!
+
+Question: 31.	levied
+
+	Question word: levied
+	Possibilities: ['imposed', 'believed', 'requested', 'correlated']
+	Correct Answer: imposed	Calculation: 
+
+			sim(levied,imposed)=0.673263304778
+			sim(levied,believed)=0.204074200151
+			sim(levied,requested)=0.319232013188
+			sim(levied,correlated)=0.168751424999
+	Chosen answer: imposed
+		CORRECT!
+
+Question: 32.	deftly
+
+	Question word: deftly
+	Possibilities: ['skillfully', 'prudently', 'occasionally', 'humorously']
+	Correct Answer: skillfully	Calculation: 
+
+			sim(deftly,skillfully)=0.856759015592
+			sim(deftly,prudently)=0.374022106131
+			sim(deftly,occasionally)=0.401653382931
+			sim(deftly,humorously)=0.610819099332
+	Chosen answer: skillfully
+		CORRECT!
+
+Question: 33.	distribute
+
+	Question word: distribute
+	Possibilities: ['commercialize', 'circulate', 'research', 'acknowledge']
+	Correct Answer: circulate	Calculation: 
+
+			sim(distribute,commercialize)=0.397992549329
+			sim(distribute,circulate)=0.543886337833
+			sim(distribute,research)=0.200667848625
+			sim(distribute,acknowledge)=0.336069013435
+	Chosen answer: circulate
+		CORRECT!
+
+Question: 34.	discrepancies
+
+	Question word: discrepancies
+	Possibilities: ['weights', 'deposits', 'wavelengths', 'differences']
+	Correct Answer: differences	Calculation: 
+
+			sim(discrepancies,weights)=0.165223028792
+			sim(discrepancies,deposits)=0.260299240036
+			sim(discrepancies,wavelengths)=0.158864714808
+			sim(discrepancies,differences)=0.571471423469
+	Chosen answer: differences
+		CORRECT!
+
+Question: 35.	prolific
+
+	Question word: prolific
+	Possibilities: ['productive', 'serious', 'capable', 'promising']
+	Correct Answer: productive	Calculation: 
+
+			sim(prolific,productive)=0.476638934608
+			sim(prolific,serious)=0.317348932864
+			sim(prolific,capable)=0.313504129161
+			sim(prolific,promising)=0.407228811865
+	Chosen answer: productive
+		CORRECT!
+
+Question: 36.	unmatched
+
+	Question word: unmatched
+	Possibilities: ['unrecognized', 'unequaled', 'alienated', 'emulated']
+	Correct Answer: unequaled	Calculation: 
+
+			sim(unmatched,unrecognized)=0.15162768148
+			sim(unmatched,unequaled)=0.743908664926
+			sim(unmatched,alienated)=0.0791329632622
+			sim(unmatched,emulated)=0.227384840484
+	Chosen answer: unequaled
+		CORRECT!
+
+Question: 37.	peculiarly
+
+	Question word: peculiarly
+	Possibilities: ['partly', 'uniquely', 'patriotically', 'suspiciously']
+	Correct Answer: uniquely	Calculation: 
+
+			sim(peculiarly,partly)=0.410908903455
+			sim(peculiarly,uniquely)=0.525354539132
+			sim(peculiarly,patriotically)=0.352839892036
+			sim(peculiarly,suspiciously)=0.463444849959
+	Chosen answer: uniquely
+		CORRECT!
+
+Question: 38.	hue
+
+	Question word: hue
+	Possibilities: ['glare', 'contrast', 'color', 'scent']
+	Correct Answer: color	Calculation: 
+
+			sim(hue,glare)=0.352044665747
+			sim(hue,contrast)=0.516742332842
+			sim(hue,color)=0.662919148588
+			sim(hue,scent)=0.349729429872
+	Chosen answer: color
+		CORRECT!
+
+Question: 39.	hind
+
+	Question word: hind
+	Possibilities: ['curved', 'muscular', 'hairy', 'rear']
+	Correct Answer: rear	Calculation: 
+
+			sim(hind,curved)=0.364339268302
+			sim(hind,muscular)=0.418661742648
+			sim(hind,hairy)=0.343961253732
+			sim(hind,rear)=0.366590477528
+	Chosen answer: muscular
+		WRONG!
+
+Question: 40.	highlight
+
+	Question word: highlight
+	Possibilities: ['alter', 'imitate', 'accentuate', 'restore']
+	Correct Answer: accentuate	Calculation: 
+
+			sim(highlight,alter)=0.256076249162
+			sim(highlight,imitate)=0.221173373954
+			sim(highlight,accentuate)=0.437292081327
+			sim(highlight,restore)=0.237120274094
+	Chosen answer: accentuate
+		CORRECT!
+
+Question: 41.	hastily
+
+	Question word: hastily
+	Possibilities: ['hurriedly', 'shrewdly', 'habitually', 'chronologically']
+	Correct Answer: hurriedly	Calculation: 
+
+			sim(hastily,hurriedly)=0.904523719237
+			sim(hastily,shrewdly)=0.480243552927
+			sim(hastily,habitually)=0.410886645697
+			sim(hastily,chronologically)=0.251127868691
+	Chosen answer: hurriedly
+		CORRECT!
+
+Question: 42.	temperate
+
+	Question word: temperate
+	Possibilities: ['cold', 'mild', 'short', 'windy']
+	Correct Answer: mild	Calculation: 
+
+			sim(temperate,cold)=0.427228533606
+			sim(temperate,mild)=0.384466316623
+			sim(temperate,short)=0.138407415465
+			sim(temperate,windy)=0.418946419478
+	Chosen answer: cold
+		WRONG!
+
+Question: 43.	grin
+
+	Question word: grin
+	Possibilities: ['exercise', 'rest', 'joke', 'smile']
+	Correct Answer: smile	Calculation: 
+
+			sim(grin,exercise)=0.0905683417579
+			sim(grin,rest)=0.287767211687
+			sim(grin,joke)=0.453180210417
+			sim(grin,smile)=0.847623231952
+	Chosen answer: smile
+		CORRECT!
+
+Question: 44.	verbally
+
+	Question word: verbally
+	Possibilities: ['orally', 'overtly', 'fittingly', 'verbosely']
+	Correct Answer: orally	Calculation: 
+
+			sim(verbally,orally)=0.472215801101
+			sim(verbally,overtly)=0.454204997577
+			sim(verbally,fittingly)=0.219790482289
+			sim(verbally,verbosely)=0.204315796911
+	Chosen answer: orally
+		CORRECT!
+
+Question: 45.	physician
+
+	Question word: physician
+	Possibilities: ['chemist', 'pharmacist', 'nurse', 'doctor']
+	Correct Answer: doctor	Calculation: 
+
+			sim(physician,chemist)=0.470110402782
+			sim(physician,pharmacist)=0.736281904736
+			sim(physician,nurse)=0.649045898526
+			sim(physician,doctor)=0.793212616226
+	Chosen answer: doctor
+		CORRECT!
+
+Question: 46.	essentially
+
+	Question word: essentially
+	Possibilities: ['possibly', 'eagerly', 'basically', 'ordinarily']
+	Correct Answer: basically	Calculation: 
+
+			sim(essentially,possibly)=0.615666875897
+			sim(essentially,eagerly)=0.239954501397
+			sim(essentially,basically)=0.864848931187
+			sim(essentially,ordinarily)=0.51815308147
+	Chosen answer: basically
+		CORRECT!
+
+Question: 47.	keen
+
+	Question word: keen
+	Possibilities: ['useful', 'simple', 'famous', 'sharp']
+	Correct Answer: sharp	Calculation: 
+
+			sim(keen,useful)=0.371457761079
+			sim(keen,simple)=0.274527496834
+			sim(keen,famous)=0.284096810598
+			sim(keen,sharp)=0.403138787058
+	Chosen answer: sharp
+		CORRECT!
+
+Question: 48.	situated
+
+	Question word: situated
+	Possibilities: ['rotating', 'isolated', 'emptying', 'positioned']
+	Correct Answer: positioned	Calculation: 
+
+			sim(situated,rotating)=0.118036013555
+			sim(situated,isolated)=0.289316942492
+			sim(situated,emptying)=0.0611984766997
+			sim(situated,positioned)=0.544429546612
+	Chosen answer: positioned
+		CORRECT!
+
+Question: 49.	principal
+
+	Question word: principal
+	Possibilities: ['most', 'numerous', 'major', 'exceptional']
+	Correct Answer: major	Calculation: 
+
+			sim(principal,most)=0.314767840907
+			sim(principal,numerous)=0.349395924848
+			sim(principal,major)=0.431998304594
+			sim(principal,exceptional)=0.280854593438
+	Chosen answer: major
+		CORRECT!
+
+Question: 50.	slowly
+
+	Question word: slowly
+	Possibilities: ['rarely', 'gradually', 'effectively', 'continuously']
+	Correct Answer: gradually	Calculation: 
+
+			sim(slowly,rarely)=0.435441468175
+			sim(slowly,gradually)=0.81936898991
+			sim(slowly,effectively)=0.447637916545
+			sim(slowly,continuously)=0.565453089877
+	Chosen answer: gradually
+		CORRECT!
+
+Question: 51.	built
+
+	Question word: built
+	Possibilities: ['constructed', 'proposed', 'financed', 'organized']
+	Correct Answer: constructed	Calculation: 
+
+			sim(built,constructed)=0.716438352091
+			sim(built,proposed)=0.290747367806
+			sim(built,financed)=0.343135664137
+			sim(built,organized)=0.348140700619
+	Chosen answer: constructed
+		CORRECT!
+
+Question: 52.	tasks
+
+	Question word: tasks
+	Possibilities: ['customers', 'materials', 'shops', 'jobs']
+	Correct Answer: jobs	Calculation: 
+
+			sim(tasks,customers)=0.317410617967
+			sim(tasks,materials)=0.33019571817
+			sim(tasks,shops)=0.0962361900849
+			sim(tasks,jobs)=0.361817473667
+	Chosen answer: jobs
+		CORRECT!
+
+Question: 53.	unlikely
+
+	Question word: unlikely
+	Possibilities: ['improbable', 'disagreeable', 'different', 'unpopular']
+	Correct Answer: improbable	Calculation: 
+
+			sim(unlikely,improbable)=0.64689195851
+			sim(unlikely,disagreeable)=0.218937304801
+			sim(unlikely,different)=0.365436155795
+			sim(unlikely,unpopular)=0.505318365217
+	Chosen answer: improbable
+		CORRECT!
+
+Question: 54.	halfheartedly
+
+	Question word: halfheartedly
+	Possibilities: ['customarily', 'bipartisanly', 'apathetically', 'unconventionally']
+	Correct Answer: apathetically	Calculation: 
+
+Question: 55.	annals
+
+	Question word: annals
+	Possibilities: ['homes', 'trails', 'chronicles', 'songs']
+	Correct Answer: chronicles	Calculation: 
+
+			sim(annals,homes)=0.011406470488
+			sim(annals,trails)=0.100152680008
+			sim(annals,chronicles)=0.445087636402
+			sim(annals,songs)=0.0929264250018
+	Chosen answer: chronicles
+		CORRECT!
+
+Question: 56.	wildly
+
+	Question word: wildly
+	Possibilities: ['distinctively', 'mysteriously', 'abruptly', 'furiously']
+	Correct Answer: furiously	Calculation: 
+
+			sim(wildly,distinctively)=0.275269218893
+			sim(wildly,mysteriously)=0.392494286628
+			sim(wildly,abruptly)=0.433044497946
+			sim(wildly,furiously)=0.583359351459
+	Chosen answer: furiously
+		CORRECT!
+
+Question: 57.	hailed
+
+	Question word: hailed
+	Possibilities: ['judged', 'acclaimed', 'remembered', 'addressed']
+	Correct Answer: acclaimed	Calculation: 
+
+			sim(hailed,judged)=0.315228981109
+			sim(hailed,acclaimed)=0.474819230969
+			sim(hailed,remembered)=0.449943638961
+			sim(hailed,addressed)=0.297905328853
+	Chosen answer: acclaimed
+		CORRECT!
+
+Question: 58.	command
+
+	Question word: command
+	Possibilities: ['observation', 'love', 'awareness', 'mastery']
+	Correct Answer: mastery	Calculation: 
+
+			sim(command,observation)=0.228695258716
+			sim(command,love)=0.120474227792
+			sim(command,awareness)=0.155101807476
+			sim(command,mastery)=0.255392078715
+	Chosen answer: mastery
+		CORRECT!
+
+Question: 59.	concocted
+
+	Question word: concocted
+	Possibilities: ['devised', 'cleaned', 'requested', 'supervised']
+	Correct Answer: devised	Calculation: 
+
+			sim(concocted,devised)=0.638773675755
+			sim(concocted,cleaned)=0.0967821802413
+			sim(concocted,requested)=0.13158992238
+			sim(concocted,supervised)=0.169903673612
+	Chosen answer: devised
+		CORRECT!
+
+Question: 60.	prospective
+
+	Question word: prospective
+	Possibilities: ['particular', 'prudent', 'potential', 'prominent']
+	Correct Answer: potential	Calculation: 
+
+			sim(prospective,particular)=0.413748442046
+			sim(prospective,prudent)=0.394160337836
+			sim(prospective,potential)=0.63880072449
+			sim(prospective,prominent)=0.327417947072
+	Chosen answer: potential
+		CORRECT!
+
+Question: 61.	generally
+
+	Question word: generally
+	Possibilities: ['descriptively', 'broadly', 'controversially', 'accurately']
+	Correct Answer: broadly	Calculation: 
+
+			sim(generally,descriptively)=0.0940065605999
+			sim(generally,broadly)=0.610475031371
+			sim(generally,controversially)=0.172917844971
+			sim(generally,accurately)=0.434344930602
+	Chosen answer: broadly
+		CORRECT!
+
+Question: 62.	sustained
+
+	Question word: sustained
+	Possibilities: ['prolonged', 'refined', 'lowered', 'analyzed']
+	Correct Answer: prolonged	Calculation: 
+
+			sim(sustained,prolonged)=0.608340949072
+			sim(sustained,refined)=0.18691501874
+			sim(sustained,lowered)=0.339160701239
+			sim(sustained,analyzed)=0.285393704784
+	Chosen answer: prolonged
+		CORRECT!
+
+Question: 63.	perilous
+
+	Question word: perilous
+	Possibilities: ['binding', 'exciting', 'offensive', 'dangerous']
+	Correct Answer: dangerous	Calculation: 
+
+			sim(perilous,binding)=0.021975157539
+			sim(perilous,exciting)=0.303809827515
+			sim(perilous,offensive)=0.179757202959
+			sim(perilous,dangerous)=0.605481027085
+	Chosen answer: dangerous
+		CORRECT!
+
+Question: 64.	tranquillity
+
+	Question word: tranquillity
+	Possibilities: ['peacefulness', 'harshness', 'weariness', 'happiness']
+	Correct Answer: peacefulness	Calculation: 
+
+			sim(tranquillity,peacefulness)=0.825106865051
+			sim(tranquillity,harshness)=0.345544544035
+			sim(tranquillity,weariness)=0.40133233665
+			sim(tranquillity,happiness)=0.458475956577
+	Chosen answer: peacefulness
+		CORRECT!
+
+Question: 65.	dissipate
+
+	Question word: dissipate
+	Possibilities: ['disperse', 'isolate', 'disguise', 'photograph']
+	Correct Answer: disperse	Calculation: 
+
+			sim(dissipate,disperse)=0.588997942993
+			sim(dissipate,isolate)=0.332528204705
+			sim(dissipate,disguise)=0.258744271968
+			sim(dissipate,photograph)=-0.00999244598789
+	Chosen answer: disperse
+		CORRECT!
+
+Question: 66.	primarily
+
+	Question word: primarily
+	Possibilities: ['occasionally', 'cautiously', 'consistently', 'chiefly']
+	Correct Answer: chiefly	Calculation: 
+
+			sim(primarily,occasionally)=0.497479567776
+			sim(primarily,cautiously)=0.214059366676
+			sim(primarily,consistently)=0.472592210338
+			sim(primarily,chiefly)=0.655904560355
+	Chosen answer: chiefly
+		CORRECT!
+
+Question: 67.	colloquial
+
+	Question word: colloquial
+	Possibilities: ['recorded', 'misunderstood', 'incorrect', 'conversational']
+	Correct Answer: conversational	Calculation: 
+
+			sim(colloquial,recorded)=0.0755692106296
+			sim(colloquial,misunderstood)=0.302043829896
+			sim(colloquial,incorrect)=0.2674178876
+			sim(colloquial,conversational)=0.593850795469
+	Chosen answer: conversational
+		CORRECT!
+
+Question: 68.	resolved
+
+	Question word: resolved
+	Possibilities: ['publicized', 'forgotten', 'settled', 'examined']
+	Correct Answer: settled	Calculation: 
+
+			sim(resolved,publicized)=0.3215334448
+			sim(resolved,forgotten)=0.351352658512
+			sim(resolved,settled)=0.46866932318
+			sim(resolved,examined)=0.434755984743
+	Chosen answer: settled
+		CORRECT!
+
+Question: 69.	feasible
+
+	Question word: feasible
+	Possibilities: ['permitted', 'possible', 'equitable', 'evident']
+	Correct Answer: possible	Calculation: 
+
+			sim(feasible,permitted)=0.409960127623
+			sim(feasible,possible)=0.684870860609
+			sim(feasible,equitable)=0.521487684428
+			sim(feasible,evident)=0.386994199338
+	Chosen answer: possible
+		CORRECT!
+
+Question: 70.	expeditiously
+
+	Question word: expeditiously
+	Possibilities: ['frequently', 'actually', 'rapidly', 'repeatedly']
+	Correct Answer: rapidly	Calculation: 
+
+			sim(expeditiously,frequently)=0.23113652052
+			sim(expeditiously,actually)=0.0839375124002
+			sim(expeditiously,rapidly)=0.309287156873
+			sim(expeditiously,repeatedly)=0.296756810774
+	Chosen answer: rapidly
+		CORRECT!
+
+Question: 71.	percentage
+
+	Question word: percentage
+	Possibilities: ['volume', 'sample', 'proportion', 'profit']
+	Correct Answer: proportion	Calculation: 
+
+			sim(percentage,volume)=0.339274453347
+			sim(percentage,sample)=0.322105583311
+			sim(percentage,proportion)=0.678383950365
+			sim(percentage,profit)=0.53319053911
+	Chosen answer: proportion
+		CORRECT!
+
+Question: 72.	terminated
+
+	Question word: terminated
+	Possibilities: ['ended', 'posed', 'postponed', 'evaluated']
+	Correct Answer: ended	Calculation: 
+
+			sim(terminated,ended)=0.411256177357
+			sim(terminated,posed)=0.139072653216
+			sim(terminated,postponed)=0.371700078705
+			sim(terminated,evaluated)=0.343564870635
+	Chosen answer: ended
+		CORRECT!
+
+Question: 73.	uniform
+
+	Question word: uniform
+	Possibilities: ['hard', 'complex', 'alike', 'sharp']
+	Correct Answer: alike	Calculation: 
+
+			sim(uniform,hard)=0.323061565179
+			sim(uniform,complex)=0.20888025803
+			sim(uniform,alike)=0.214572746323
+			sim(uniform,sharp)=0.259987718437
+	Chosen answer: hard
+		WRONG!
+
+Question: 74.	figure
+
+	Question word: figure
+	Possibilities: ['list', 'solve', 'divide', 'express']
+	Correct Answer: solve	Calculation: 
+
+			sim(figure,list)=0.263727102481
+			sim(figure,solve)=0.338039837031
+			sim(figure,divide)=0.308687990974
+			sim(figure,express)=0.230710364826
+	Chosen answer: solve
+		CORRECT!
+
+Question: 75.	sufficient
+
+	Question word: sufficient
+	Possibilities: ['recent', 'physiological', 'enough', 'valuable']
+	Correct Answer: enough	Calculation: 
+
+			sim(sufficient,recent)=0.227346552643
+			sim(sufficient,physiological)=0.439028208969
+			sim(sufficient,enough)=0.643935305037
+			sim(sufficient,valuable)=0.519242308077
+	Chosen answer: enough
+		CORRECT!
+
+Question: 76.	fashion
+
+	Question word: fashion
+	Possibilities: ['ration', 'fathom', 'craze', 'manner']
+	Correct Answer: manner	Calculation: 
+
+			sim(fashion,ration)=0.0426729594239
+			sim(fashion,fathom)=0.116291517948
+			sim(fashion,craze)=0.396127066174
+			sim(fashion,manner)=0.402208944057
+	Chosen answer: manner
+		CORRECT!
+
+Question: 77.	marketed
+
+	Question word: marketed
+	Possibilities: ['frozen', 'sold', 'sweetened', 'diluted']
+	Correct Answer: sold	Calculation: 
+
+			sim(marketed,frozen)=0.16414392532
+			sim(marketed,sold)=0.613063207859
+			sim(marketed,sweetened)=0.27662069445
+			sim(marketed,diluted)=0.249656191886
+	Chosen answer: sold
+		CORRECT!
+
+Question: 78.	bigger
+
+	Question word: bigger
+	Possibilities: ['steadier', 'closer', 'larger', 'better']
+	Correct Answer: larger	Calculation: 
+
+			sim(bigger,steadier)=0.239072120875
+			sim(bigger,closer)=0.58593502455
+			sim(bigger,larger)=0.804227095347
+			sim(bigger,better)=0.629246178828
+	Chosen answer: larger
+		CORRECT!
+
+Question: 79.	roots
+
+	Question word: roots
+	Possibilities: ['origins', 'rituals', 'cure', 'function']
+	Correct Answer: origins	Calculation: 
+
+			sim(roots,origins)=0.573222234493
+			sim(roots,rituals)=0.321584499271
+			sim(roots,cure)=0.216163333912
+			sim(roots,function)=0.189975330335
+	Chosen answer: origins
+		CORRECT!
+
+Question: 80.	normally
+
+	Question word: normally
+	Possibilities: ['haltingly', 'ordinarily', 'permanently', 'periodically']
+	Correct Answer: ordinarily	Calculation: 
+
+			sim(normally,haltingly)=0.0215675614134
+			sim(normally,ordinarily)=0.735025201267
+			sim(normally,permanently)=0.448602220249
+			sim(normally,periodically)=0.457866584196
+	Chosen answer: ordinarily
+		CORRECT!
+
+
+
+Total(flat): 80 Precision(flat): 71 Recall(flat): 79 Precision: 0.8875 Recall: 0.9875

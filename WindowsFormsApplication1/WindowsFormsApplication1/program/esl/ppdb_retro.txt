@@ -1,0 +1,655 @@
+
+
+Question: A [rusty] nail is not as strong as a clean, new one.
+	Question word: rusty
+	Possibilities: ['corroded', 'black', 'dirty', 'painted']
+	Correct Answer: corroded
+	Calculation: 
+
+			sim(rusty,corroded)=0.864682659677
+			sim(rusty,black)=0.361336174742
+			sim(rusty,dirty)=0.450158011261
+			sim(rusty,painted)=0.453398688365
+	Chosen answer: corroded
+		CORRECT!
+
+Question: A trumpet is a [brass] instrument. 
+	Question word: brass
+	Possibilities: ['metal', 'wood', 'stone', 'plastic']
+	Correct Answer: metal
+	Calculation: 
+
+			sim(brass,metal)=0.674178473998
+			sim(brass,wood)=0.517387337402
+			sim(brass,stone)=0.452930360357
+			sim(brass,plastic)=0.474617866585
+	Chosen answer: metal
+		CORRECT!
+
+Question: After that fast dance my head began to [spin].
+	Question word: spin
+	Possibilities: ['twirl', 'ache', 'sweat', 'flush']
+	Correct Answer: twirl
+	Calculation: 
+
+			sim(spin,twirl)=0.462155327904
+			sim(spin,ache)=0.186291847567
+			sim(spin,sweat)=0.238604644341
+			sim(spin,flush)=0.282452721265
+	Chosen answer: twirl
+		CORRECT!
+
+Question: An underground [passage] connected the house to the garage.
+	Question word: passage
+	Possibilities: ['hallway', 'ticket', 'entrance', 'room']
+	Correct Answer: hallway
+	Calculation: 
+
+			sim(passage,hallway)=0.418546954327
+			sim(passage,ticket)=0.300881685698
+			sim(passage,entrance)=0.560551706081
+			sim(passage,room)=0.344620517303
+	Chosen answer: entrance
+		WRONG!
+
+Question: At a four way stop the second car to arrive must [yield] to the right of way of the first car.
+	Question word: yield
+	Possibilities: ['submit', 'challenge', 'boast', 'scorn']
+	Correct Answer: submit
+	Calculation: 
+
+			sim(yield,submit)=0.381315424046
+			sim(yield,challenge)=0.330023911259
+			sim(yield,boast)=0.300337107597
+			sim(yield,scorn)=0.173013880322
+	Chosen answer: submit
+		CORRECT!
+
+Question: Before climbing always [lean] the ladder firmly against the wall.
+	Question word: lean
+	Possibilities: ['cushion', 'scrape', 'grate', 'refer']
+	Correct Answer: cushion
+	Calculation: 
+
+			sim(lean,cushion)=0.305204488568
+			sim(lean,scrape)=0.36680866802
+			sim(lean,grate)=0.357797205174
+			sim(lean,refer)=0.249077068072
+	Chosen answer: scrape
+		WRONG!
+
+Question: Carefully roll the wine [barrel] down the slope.
+	Question word: barrel
+	Possibilities: ['cask', 'bottle', 'box', 'case']
+	Correct Answer: cask
+	Calculation: 
+
+			sim(barrel,cask)=0.420415810176
+			sim(barrel,bottle)=0.578474452141
+			sim(barrel,box)=0.384478550229
+			sim(barrel,case)=0.289657840815
+	Chosen answer: bottle
+		WRONG!
+
+Question: Don't be such a [nuisance]! Go out and play for a while.
+	Question word: nuisance
+	Possibilities: ['pest', 'garbage', 'relief', 'troublesome']
+	Correct Answer: pest
+	Calculation: 
+
+			sim(nuisance,pest)=0.598610316147
+			sim(nuisance,garbage)=0.429339565842
+			sim(nuisance,relief)=0.394999930654
+			sim(nuisance,troublesome)=0.617936311838
+	Chosen answer: troublesome
+		WRONG!
+
+Question: Don't forget to vacuum the [rug] before they come home.
+	Question word: rug
+	Possibilities: ['carpet', 'sofa', 'ottoman', 'hallway']
+	Correct Answer: carpet
+	Calculation: 
+
+			sim(rug,carpet)=0.862046145408
+			sim(rug,sofa)=0.531989286995
+			sim(rug,ottoman)=0.504146200622
+			sim(rug,hallway)=0.391685221984
+	Chosen answer: carpet
+		CORRECT!
+
+Question: Every year in the early spring farmers [tap] maple syrup from their trees. 
+	Question word: tap
+	Possibilities: ['drain', 'boil', 'knock', 'rap']
+	Correct Answer: drain
+	Calculation: 
+
+			sim(tap,drain)=0.58476506041
+			sim(tap,boil)=0.403731169944
+			sim(tap,knock)=0.463020293188
+			sim(tap,rap)=0.202615314272
+	Chosen answer: drain
+		CORRECT!
+
+Question: He [split] the rock in two with a hammer.
+	Question word: split
+	Possibilities: ['divided', 'crushed', 'grated', 'bruised']
+	Correct Answer: divided
+	Calculation: 
+
+			sim(split,divided)=0.741496478108
+			sim(split,crushed)=0.411896648809
+			sim(split,grated)=0.232589535209
+			sim(split,bruised)=0.207344827674
+	Chosen answer: divided
+		CORRECT!
+
+Question: He did not blend the batter well so there was a [lump] or two left behind.
+	Question word: lump
+	Possibilities: ['chunk', 'stem', 'trunk', 'limb']
+	Correct Answer: chunk
+	Calculation: 
+
+			sim(lump,chunk)=0.530847586599
+			sim(lump,stem)=0.313564042254
+			sim(lump,trunk)=0.309312945527
+			sim(lump,limb)=0.387191965229
+	Chosen answer: chunk
+		CORRECT!
+
+Question: He saw the [outline] of her figure through the curtains.
+	Question word: outline
+	Possibilities: ['contour', 'pair', 'blend', 'block']
+	Correct Answer: contour
+	Calculation: 
+
+			sim(outline,contour)=0.575556910118
+			sim(outline,pair)=0.197742004189
+			sim(outline,blend)=0.218488169213
+			sim(outline,block)=0.320282511925
+	Chosen answer: contour
+		CORRECT!
+
+Question: I [swear] on a stack of Bibles that I am telling the truth.
+	Question word: swear
+	Possibilities: ['vow', 'explain', 'think', 'describe']
+	Correct Answer: vow
+	Calculation: 
+
+			sim(swear,vow)=0.719255433537
+			sim(swear,explain)=0.502595728161
+			sim(swear,think)=0.567321339117
+			sim(swear,describe)=0.358569539399
+	Chosen answer: vow
+		CORRECT!
+
+Question: I was so [relieved] after I had a short nap.
+	Question word: relieved
+	Possibilities: ['rested', 'sleepy', 'tired', 'hasty']
+	Correct Answer: rested
+	Calculation: 
+
+			sim(relieved,rested)=0.567714889587
+			sim(relieved,sleepy)=0.442145082611
+			sim(relieved,tired)=0.534080883585
+			sim(relieved,hasty)=0.355099813847
+	Chosen answer: rested
+		CORRECT!
+
+Question: If you [deserve] a treat, you will get one.
+	Question word: deserve
+	Possibilities: ['merit', 'need', 'want', 'expect']
+	Correct Answer: merit
+	Calculation: 
+
+			sim(deserve,merit)=0.858746322733
+			sim(deserve,need)=0.588118758957
+			sim(deserve,want)=0.574912897104
+			sim(deserve,expect)=0.62062082791
+	Chosen answer: merit
+		CORRECT!
+
+Question: If you do something in [haste] you will make mistakes.
+	Question word: haste
+	Possibilities: ['hurry', 'anger', 'ear', 'spite']
+	Correct Answer: hurry
+	Calculation: 
+
+			sim(haste,hurry)=0.664836407232
+			sim(haste,anger)=0.445917174908
+			sim(haste,ear)=0.212180846245
+			sim(haste,spite)=0.484779041718
+	Chosen answer: hurry
+		CORRECT!
+
+Question: Leave the gelatin in the refrigerator until it is [stiff].
+	Question word: stiff
+	Possibilities: ['firm', 'dark', 'drunk', 'cooked']
+	Correct Answer: firm
+	Calculation: 
+
+			sim(stiff,firm)=0.471822471037
+			sim(stiff,dark)=0.485632497243
+			sim(stiff,drunk)=0.392476871019
+			sim(stiff,cooked)=0.370662085424
+	Chosen answer: dark
+		WRONG!
+
+Question: Let's skip the second [verse].
+	Question word: verse
+	Possibilities: ['section', 'weed', 'twig', 'branch']
+	Correct Answer: section
+	Calculation: 
+
+			sim(verse,section)=0.305977399916
+			sim(verse,weed)=0.202082162674
+			sim(verse,twig)=0.199674273358
+			sim(verse,branch)=0.134613191519
+	Chosen answer: section
+		CORRECT!
+
+Question: Looking over the [steep] cliff made his head feel light.
+	Question word: steep
+	Possibilities: ['sheer', 'bare', 'rugged', 'stone']
+	Correct Answer: sheer
+	Calculation: 
+
+			sim(steep,sheer)=0.447909298858
+			sim(steep,bare)=0.406097449129
+			sim(steep,rugged)=0.626899596297
+			sim(steep,stone)=0.390962161874
+	Chosen answer: rugged
+		WRONG!
+
+Question: Mary was [envious] when Ruth won the prize.
+	Question word: envious
+	Possibilities: ['jealous', 'enthusiastic', 'hurt', 'relieved']
+	Correct Answer: jealous
+	Calculation: 
+
+			sim(envious,jealous)=0.963707494264
+			sim(envious,enthusiastic)=0.468709228486
+			sim(envious,hurt)=0.42407661195
+			sim(envious,relieved)=0.285972068844
+	Chosen answer: jealous
+		CORRECT!
+
+Question: Mix the flour and water until it makes a thick [paste].
+	Question word: paste
+	Possibilities: ['dough', 'syrup', 'block', 'jelly']
+	Correct Answer: dough
+	Calculation: 
+
+			sim(paste,dough)=0.67402116981
+			sim(paste,syrup)=0.489403699455
+			sim(paste,block)=0.304256116859
+			sim(paste,jelly)=0.53633532565
+	Chosen answer: dough
+		CORRECT!
+
+Question: Never [scorn] to fight with your spouse.
+	Question word: scorn
+	Possibilities: ['refuse', 'enjoy', 'avoid', 'plan']
+	Correct Answer: refuse
+	Calculation: 
+
+			sim(scorn,refuse)=0.512311567032
+			sim(scorn,enjoy)=0.232354851157
+			sim(scorn,avoid)=0.334560251419
+			sim(scorn,plan)=0.0979814744419
+	Chosen answer: refuse
+		CORRECT!
+
+Question: Please allow me to [refer] you to the department best suited to your request.
+	Question word: refer
+	Possibilities: ['direct', 'call', 'carry', 'explain']
+	Correct Answer: direct
+	Calculation: 
+
+			sim(refer,direct)=0.509064801957
+			sim(refer,call)=0.582033938559
+			sim(refer,carry)=0.447805878238
+			sim(refer,explain)=0.735813592792
+	Chosen answer: explain
+		WRONG!
+
+Question: Rebecca hung a tire from the [limb] of the tree to make a swing.
+	Question word: limb
+	Possibilities: ['branch', 'bark', 'trunk', 'twig']
+	Correct Answer: branch
+	Calculation: 
+
+			sim(limb,branch)=0.496833553921
+			sim(limb,bark)=0.351401661633
+			sim(limb,trunk)=0.527051316129
+			sim(limb,twig)=0.46043968011
+	Chosen answer: trunk
+		WRONG!
+
+Question: She knelt on a [pad] to protect her knees from bruising.
+	Question word: pad
+	Possibilities: ['cushion', 'board', 'block', 'tablet']
+	Correct Answer: cushion
+	Calculation: 
+
+			sim(pad,cushion)=0.678015061775
+			sim(pad,board)=0.44871837198
+			sim(pad,block)=0.469744445928
+			sim(pad,tablet)=0.49233809014
+	Chosen answer: cushion
+		CORRECT!
+
+Question: She likes to [boast] about her daughter's swimming trophies.
+	Question word: boast
+	Possibilities: ['brag', 'yell', 'complain', 'explain']
+	Correct Answer: brag
+	Calculation: 
+
+			sim(boast,brag)=0.962404792108
+			sim(boast,yell)=0.360353334819
+			sim(boast,complain)=0.473394719167
+			sim(boast,explain)=0.330239985716
+	Chosen answer: brag
+		CORRECT!
+
+Question: Some people will do anything for the audience's [applause].
+	Question word: applause
+	Possibilities: ['approval', 'fear', 'shame', 'friends']
+	Correct Answer: approval
+	Calculation: 
+
+			sim(applause,approval)=0.268899613396
+			sim(applause,fear)=0.312513717685
+			sim(applause,shame)=0.37367534372
+			sim(applause,friends)=0.2722787826
+	Chosen answer: shame
+		WRONG!
+
+Question: Take out a clean [sheet] of paper and write this down.
+	Question word: sheet
+	Possibilities: ['leaf', 'book', 'block', 'tap']
+	Correct Answer: leaf
+	Calculation: 
+
+			sim(sheet,leaf)=0.59326439058
+			sim(sheet,book)=0.364353829521
+			sim(sheet,block)=0.349346734853
+			sim(sheet,tap)=0.278929963288
+	Chosen answer: leaf
+		CORRECT!
+
+Question: The [stem] of the bean plant was too thick to cut.
+	Question word: stem
+	Possibilities: ['stalk', 'bark', 'column', 'trunk']
+	Correct Answer: stalk
+	Calculation: 
+
+			sim(stem,stalk)=0.633034285071
+			sim(stem,bark)=0.392668346672
+			sim(stem,column)=0.342926245113
+			sim(stem,trunk)=0.422899541381
+	Chosen answer: stalk
+		CORRECT!
+
+Question: The army general planned to [seize] control of the government during the coup.
+	Question word: seize
+	Possibilities: ['take', 'refer', 'request', 'yield']
+	Correct Answer: take
+	Calculation: 
+
+			sim(seize,take)=0.590184696985
+			sim(seize,refer)=0.312670861433
+			sim(seize,request)=0.311345860279
+			sim(seize,yield)=0.385355349517
+	Chosen answer: take
+		CORRECT!
+
+Question: The blankets are kept in a large [trunk] upstairs.
+	Question word: trunk
+	Possibilities: ['chest', 'bag', 'closet', 'swing']
+	Correct Answer: chest
+	Calculation: 
+
+			sim(trunk,chest)=0.577498825778
+			sim(trunk,bag)=0.491139508786
+			sim(trunk,closet)=0.42646039256
+			sim(trunk,swing)=0.331002642999
+	Chosen answer: chest
+		CORRECT!
+
+Question: The dandelion is a common [weed].
+	Question word: weed
+	Possibilities: ['plant', 'cloth', 'animal', 'vegetable']
+	Correct Answer: plant
+	Calculation: 
+
+			sim(weed,plant)=0.54686371141
+			sim(weed,cloth)=0.265224219735
+			sim(weed,animal)=0.325566347402
+			sim(weed,vegetable)=0.564389034755
+	Chosen answer: vegetable
+		WRONG!
+
+Question: The director gave her [approval] after considering the merits of the project.
+	Question word: approval
+	Possibilities: ['endorsement', 'gift', 'statement', 'confession']
+	Correct Answer: endorsement
+	Calculation: 
+
+			sim(approval,endorsement)=0.784405924481
+			sim(approval,gift)=0.240137970382
+			sim(approval,statement)=0.530764922654
+			sim(approval,confession)=0.325540022155
+	Chosen answer: endorsement
+		CORRECT!
+
+Question: The doctor detected a cancerous [mass] in his abdomen.
+	Question word: mass
+	Possibilities: ['lump', 'service', 'worship', 'element']
+	Correct Answer: lump
+	Calculation: 
+
+			sim(mass,lump)=0.404195706187
+			sim(mass,service)=0.338006615099
+			sim(mass,worship)=0.36129945902
+			sim(mass,element)=0.427538023567
+	Chosen answer: element
+		WRONG!
+
+Question: The earthquake made the pictures on the wall [swing].
+	Question word: swing
+	Possibilities: ['sway', 'bounce', 'break', 'crash']
+	Correct Answer: sway
+	Calculation: 
+
+			sim(swing,sway)=0.553450276431
+			sim(swing,bounce)=0.597547728671
+			sim(swing,break)=0.465071479678
+			sim(swing,crash)=0.331094615806
+	Chosen answer: bounce
+		WRONG!
+
+Question: The harsh sun made her shoulders burn and feel [sore].
+	Question word: sore
+	Possibilities: ['painful', 'red', 'hot', 'rough']
+	Correct Answer: painful
+	Calculation: 
+
+			sim(sore,painful)=0.783917187109
+			sim(sore,red)=0.338766374209
+			sim(sore,hot)=0.421306436049
+			sim(sore,rough)=0.504126893855
+	Chosen answer: painful
+		CORRECT!
+
+Question: The heavy snow might [hinder] the team's progress on the journey.
+	Question word: hinder
+	Possibilities: ['block', 'assist', 'relieve', 'yield']
+	Correct Answer: block
+	Calculation: 
+
+			sim(hinder,block)=0.44681548553
+			sim(hinder,assist)=0.491535445427
+			sim(hinder,relieve)=0.563408616586
+			sim(hinder,yield)=0.352820130454
+	Chosen answer: relieve
+		WRONG!
+
+Question: The honey made the baby's fingers [sticky].
+	Question word: sticky
+	Possibilities: ['gooey', 'smooth', 'shiny', 'wet']
+	Correct Answer: gooey
+	Calculation: 
+
+			sim(sticky,gooey)=0.808766013941
+			sim(sticky,smooth)=0.538514415561
+			sim(sticky,shiny)=0.50886016258
+			sim(sticky,wet)=0.619597281823
+	Chosen answer: gooey
+		CORRECT!
+
+Question: The judge will accept his [confession] in writing.
+	Question word: confession
+	Possibilities: ['statement', 'service', 'plea', 'bargain']
+	Correct Answer: statement
+	Calculation: 
+
+			sim(confession,statement)=0.522565848676
+			sim(confession,service)=0.2493265777
+			sim(confession,plea)=0.614592546116
+			sim(confession,bargain)=0.269663863694
+	Chosen answer: plea
+		WRONG!
+
+Question: The loom is set to [weave] a check pattern into the cloth.
+	Question word: weave
+	Possibilities: ['intertwine', 'print', 'stamp', 'shake']
+	Correct Answer: intertwine
+	Calculation: 
+
+			sim(weave,intertwine)=0.439664902695
+			sim(weave,print)=0.317949964997
+			sim(weave,stamp)=0.185202665352
+			sim(weave,shake)=0.275133795562
+	Chosen answer: intertwine
+		CORRECT!
+
+Question: Thelma gave the cat a [saucer] of milk.
+	Question word: saucer
+	Possibilities: ['dish', 'box', 'frisbee', 'can']
+	Correct Answer: dish
+	Calculation: 
+
+			sim(saucer,dish)=0.622078687337
+			sim(saucer,box)=0.45808559612
+			sim(saucer,frisbee)=0.353497851533
+			sim(saucer,can)=0.294032925313
+	Chosen answer: dish
+		CORRECT!
+
+Question: This bottle contains a dangerous [substance].
+	Question word: substance
+	Possibilities: ['thing', 'posture', 'level', 'score']
+	Correct Answer: thing
+	Calculation: 
+
+			sim(substance,thing)=0.459872699303
+			sim(substance,posture)=0.311735009616
+			sim(substance,level)=0.473440424229
+			sim(substance,score)=0.325023900835
+	Chosen answer: level
+		WRONG!
+
+Question: To [firmly] refuse means to never change your mind and accept.
+	Question word: firmly
+	Possibilities: ['steadfastly', 'reluctantly', 'sadly', 'hopefully']
+	Correct Answer: steadfastly
+	Calculation: 
+
+			sim(firmly,steadfastly)=0.766681923546
+			sim(firmly,reluctantly)=0.554871982979
+			sim(firmly,sadly)=0.478393093702
+			sim(firmly,hopefully)=0.461140187358
+	Chosen answer: steadfastly
+		CORRECT!
+
+Question: To braid hair one must [twist] three strands together 
+	Question word: twist
+	Possibilities: ['intertwine', 'clip', 'fasten', 'curl']
+	Correct Answer: intertwine
+	Calculation: 
+
+			sim(twist,intertwine)=0.350813700174
+			sim(twist,clip)=0.457159835764
+			sim(twist,fasten)=0.50769885335
+			sim(twist,curl)=0.520576104757
+	Chosen answer: curl
+		WRONG!
+
+Question: To make daikon oroshi you must [scrape] a Japanese radish very finely.
+	Question word: scrape
+	Possibilities: ['grate', 'chop', 'mince', 'slice']
+	Correct Answer: grate
+	Calculation: 
+
+			sim(scrape,grate)=0.416380400409
+			sim(scrape,chop)=0.566429414263
+			sim(scrape,mince)=0.503768699869
+			sim(scrape,slice)=0.450118589982
+	Chosen answer: chop
+		WRONG!
+
+Question: To sharpen a knife  [grind] it against a rough stone.
+	Question word: grind
+	Possibilities: ['rub', 'slice', 'hit', 'tap']
+	Correct Answer: rub
+	Calculation: 
+
+			sim(grind,rub)=0.509283680879
+			sim(grind,slice)=0.419015080395
+			sim(grind,hit)=0.341466272343
+			sim(grind,tap)=0.377650581572
+	Chosen answer: rub
+		CORRECT!
+
+Question: When her fingers started to [swell] she was unable to take off her rings.
+	Question word: swell
+	Possibilities: ['enlarge', 'move', 'curl', 'shake']
+	Correct Answer: enlarge
+	Calculation: 
+
+			sim(swell,enlarge)=0.415106837394
+			sim(swell,move)=0.42113658219
+			sim(swell,curl)=0.398166959267
+			sim(swell,shake)=0.500366062621
+	Chosen answer: shake
+		WRONG!
+
+Question: When the grain is golden it is time for the [harvest] of the crop.
+	Question word: harvest
+	Possibilities: ['intake', 'stem', 'lump', 'split']
+	Correct Answer: intake
+	Calculation: 
+
+			sim(harvest,intake)=0.27070634358
+			sim(harvest,stem)=0.401975054608
+			sim(harvest,lump)=0.248432414251
+			sim(harvest,split)=0.259719571101
+	Chosen answer: stem
+		WRONG!
+
+Question: You know that I do not [approve] teen's smoking.
+	Question word: approve
+	Possibilities: ['support', 'boast', 'scorn', 'anger']
+	Correct Answer: support
+	Calculation: 
+
+			sim(approve,support)=0.455901431009
+			sim(approve,boast)=0.210593367531
+			sim(approve,scorn)=0.25684776468
+			sim(approve,anger)=0.20590010032
+	Chosen answer: support
+		CORRECT!
+
+
+
+Total(flat): 50 Precision(flat): 31 Recall(flat): 50 Precision: 0.62 Recall: 1.0
