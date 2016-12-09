@@ -28,62 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "toefl/cosine.txt",
             "TOEFL",
             "False",
             "False",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "toefl/wordnet_retro.txt",
             "TOEFL",
             "Wordnet",
             "False",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "toefl/wordnet_retro_hubness.txt",
             "TOEFL",
             "Wordnet",
             "True",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "toefl/ppdb_retro.txt",
             "TOEFL",
             "ppdb",
             "False",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "toefl/ppdb_retro_hubness.txt",
             "TOEFL",
             "ppdb",
             "True",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "esl/cosine.txt",
             "ESL",
             "False",
             "False",
             "False",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "esl/wordnet_retro.txt",
             "ESL",
             "wordnet",
             "False",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "esl/wordnet_retro_hubness.txt",
             "ESL",
             "wordnet",
             "True",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "esl/ppdb_retro.txt",
             "ESL",
             "ppdb",
             "False",
             "False"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "esl/ppdb_retro_hubness.txt",
             "ESL",
             "ppdb",
@@ -96,6 +96,11 @@
             this.Hubness = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Loaded = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_hybrid = new System.Windows.Forms.Button();
             this.lb_results2 = new System.Windows.Forms.ListBox();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dgv_Answers = new System.Windows.Forms.DataGridView();
@@ -118,11 +123,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
-            this.btn_hybrid = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -145,19 +145,20 @@
             this.Loaded});
             this.lv_files.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lv_files.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem21,
-            listViewItem22,
-            listViewItem23,
-            listViewItem24,
-            listViewItem25,
-            listViewItem26,
-            listViewItem27,
-            listViewItem28,
-            listViewItem29,
-            listViewItem30});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10});
             this.lv_files.Location = new System.Drawing.Point(0, 0);
+            this.lv_files.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lv_files.Name = "lv_files";
-            this.lv_files.Size = new System.Drawing.Size(554, 221);
+            this.lv_files.Size = new System.Drawing.Size(740, 272);
             this.lv_files.TabIndex = 0;
             this.lv_files.UseCompatibleStateImageBehavior = false;
             this.lv_files.View = System.Windows.Forms.View.Details;
@@ -189,6 +190,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -203,23 +205,78 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.lv_files);
-            this.splitContainer1.Size = new System.Drawing.Size(836, 221);
-            this.splitContainer1.SplitterDistance = 278;
+            this.splitContainer1.Size = new System.Drawing.Size(1115, 272);
+            this.splitContainer1.SplitterDistance = 370;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(160, 44);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(100, 196);
+            this.listBox1.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(291, 119);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "label3";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(291, 86);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(291, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "test";
+            // 
+            // btn_hybrid
+            // 
+            this.btn_hybrid.Location = new System.Drawing.Point(169, 5);
+            this.btn_hybrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_hybrid.Name = "btn_hybrid";
+            this.btn_hybrid.Size = new System.Drawing.Size(100, 28);
+            this.btn_hybrid.TabIndex = 1;
+            this.btn_hybrid.Text = "merge";
+            this.btn_hybrid.UseVisualStyleBackColor = true;
+            this.btn_hybrid.Click += new System.EventHandler(this.btn_hybrid_Click);
             // 
             // lb_results2
             // 
             this.lb_results2.Dock = System.Windows.Forms.DockStyle.Left;
             this.lb_results2.FormattingEnabled = true;
+            this.lb_results2.ItemHeight = 16;
             this.lb_results2.Location = new System.Drawing.Point(0, 0);
+            this.lb_results2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lb_results2.Name = "lb_results2";
-            this.lb_results2.Size = new System.Drawing.Size(120, 221);
+            this.lb_results2.Size = new System.Drawing.Size(159, 272);
             this.lb_results2.TabIndex = 0;
             // 
             // splitContainer2
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -233,8 +290,9 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.splitContainer1);
-            this.splitContainer2.Size = new System.Drawing.Size(836, 450);
-            this.splitContainer2.SplitterDistance = 225;
+            this.splitContainer2.Size = new System.Drawing.Size(1115, 554);
+            this.splitContainer2.SplitterDistance = 277;
+            this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 2;
             // 
             // dgv_Answers
@@ -256,9 +314,10 @@
             this.Answer4Sim,
             this.Correct});
             this.dgv_Answers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_Answers.Location = new System.Drawing.Point(120, 24);
+            this.dgv_Answers.Location = new System.Drawing.Point(159, 28);
+            this.dgv_Answers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgv_Answers.Name = "dgv_Answers";
-            this.dgv_Answers.Size = new System.Drawing.Size(716, 179);
+            this.dgv_Answers.Size = new System.Drawing.Size(956, 227);
             this.dgv_Answers.TabIndex = 4;
             // 
             // Number
@@ -335,98 +394,62 @@
             // 
             this.lb_results.Dock = System.Windows.Forms.DockStyle.Left;
             this.lb_results.FormattingEnabled = true;
-            this.lb_results.Location = new System.Drawing.Point(0, 24);
+            this.lb_results.ItemHeight = 16;
+            this.lb_results.Location = new System.Drawing.Point(0, 28);
+            this.lb_results.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lb_results.Name = "lb_results";
-            this.lb_results.Size = new System.Drawing.Size(120, 179);
+            this.lb_results.Size = new System.Drawing.Size(159, 227);
             this.lb_results.TabIndex = 3;
             this.lb_results.SelectedIndexChanged += new System.EventHandler(this.lb_results_SelectedIndexChanged);
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 203);
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 255);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(836, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1115, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(836, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1115, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.fileToolStripMenuItem.Text = "Load Files";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // statusStrip2
             // 
-            this.statusStrip2.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip2.Location = new System.Drawing.Point(0, 532);
             this.statusStrip2.Name = "statusStrip2";
-            this.statusStrip2.Size = new System.Drawing.Size(836, 22);
+            this.statusStrip2.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip2.Size = new System.Drawing.Size(1115, 22);
             this.statusStrip2.TabIndex = 3;
             this.statusStrip2.Text = "statusStrip2";
             // 
-            // btn_hybrid
-            // 
-            this.btn_hybrid.Location = new System.Drawing.Point(127, 4);
-            this.btn_hybrid.Name = "btn_hybrid";
-            this.btn_hybrid.Size = new System.Drawing.Size(75, 23);
-            this.btn_hybrid.TabIndex = 1;
-            this.btn_hybrid.Text = "merge";
-            this.btn_hybrid.UseVisualStyleBackColor = true;
-            this.btn_hybrid.Click += new System.EventHandler(this.btn_hybrid_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(218, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(218, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(218, 97);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(120, 36);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(76, 160);
-            this.listBox1.TabIndex = 5;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 450);
+            this.ClientSize = new System.Drawing.Size(1115, 554);
             this.Controls.Add(this.statusStrip2);
             this.Controls.Add(this.splitContainer2);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.splitContainer1.Panel1.ResumeLayout(false);
